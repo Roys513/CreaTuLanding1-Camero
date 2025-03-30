@@ -1,25 +1,40 @@
+@use './presets';
 @use './cartwidget';
 
 header{
-    display: flex;
+    background-color: presets.$color2;
+    display:flex;
     justify-content: space-between;
     border-bottom: 1px solid grey;
 
-    .navbar_nav{
+    .navbar_h1{
+        @include presets.fuente_shrikahnd;
+        color:presets.$color5;
+        align-content: center;
+        margin-left: 1rem;
+    }
+
+    .nav_cart{
         display: flex;
-        justify-content: center; 
-        
-        .navbar_ul{
-            align-self: center;
-            display: flex;
-            gap: 20px;
-            padding: 0;
-            list-style: none;
-            
-            li{
-                display: inline-block;
-                font-size: 1.5rem;
-                cursor: pointer;
+        margin-right: 5px;
+
+        .navbar_nav{
+            align-content: center; 
+
+            .navbar_ul{
+                align-self: center;
+                display: flex;
+                gap: 0.5rem;
+                padding: 0;
+                list-style: none;
+
+                li{
+                    display: inline-block;
+                    @include presets.fuente_bebas_neue(100);
+                    font-size: 1.2rem;
+                    color:presets.$color5;
+                    cursor: pointer;
+                }
             }
         }
     }
