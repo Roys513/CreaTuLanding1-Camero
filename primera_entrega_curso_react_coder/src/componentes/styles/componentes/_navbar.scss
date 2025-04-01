@@ -12,6 +12,7 @@ header{
         color:presets.$color5;
         align-content: center;
         margin-left: 1rem;
+        font-size: clamp(1rem, 8vw, 3rem);
     }
 
     .nav_cart{
@@ -31,7 +32,7 @@ header{
                 li{
                     display: inline-block;
                     @include presets.fuente_bebas_neue(100);
-                    font-size: 1.2rem;
+                    font-size: clamp(1rem, 3vw, 4rem);
                     color:presets.$color5;
                     cursor: pointer;
                 }
