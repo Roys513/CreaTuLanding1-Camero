@@ -1,6 +1,9 @@
-.item_saludo{
-    background-color: grey;
-    text-align: center;
-    height: 30rem;
-    align-content: center;
-}
+@use './item_list';
+@use './presets';
+
+// .i_l_container{
+//     background-color: presets.$color5;
+//     text-align: center;
+//     height: 30rem;
+    
+// }
