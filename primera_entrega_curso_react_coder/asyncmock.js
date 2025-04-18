@@ -17,6 +17,15 @@ const misProductos = [
         stock: 10,
         idCat:"vinilos"
     },
+    {
+        id: "3",
+        nombreArtista: "Toto",
+        album: "IV",
+        precio: "6€",
+        img: "https://i.discogs.com/6iD9FWau_13-_E-Vous1lNC-GRC0vdnxeyjTPx7I6sQ/rs:fit/g:sm/q:90/h:508/w:512/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4ODI3/MjAtMTMwNTUzMzQy/OS5qcGVn.jpeg",
+        stock: 3,
+        idCat:"cassettes"
+    },
 ]
 
 export const getProductos = ()=>{
