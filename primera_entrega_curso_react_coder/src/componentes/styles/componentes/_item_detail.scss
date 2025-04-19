@@ -3,7 +3,7 @@
 
 .item_detail{
     background-color: presets.$color5;
-    height: 91vh;
+    height: 100vh;
     align-content: center;
     
     .item_detail_container{
@@ -38,6 +38,7 @@
             border-radius: 10px;
 
             h2{
+                text-align: center;
                 @include presets.fuente_shrikahnd;
                 font-size: clamp(14px, 5vw, 40px);
                 color: presets.$color1;

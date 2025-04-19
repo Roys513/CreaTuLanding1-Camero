@@ -23,7 +23,7 @@ const ItemDetail = ({id, nombreArtista, album, precio, img, stock}) => {
             <h2>{album}</h2>
             <h3>{nombreArtista}</h3>
             <h4>{precio}</h4>
-
+            
             {
               agregarCantidad > 0 ?(<Link to='/   cart'>Ir al carrito</Link>) :   (<ItemCount inicial={1} stock= {stock}  funcionAgregar= {manejadorCantidad}/>)
 
